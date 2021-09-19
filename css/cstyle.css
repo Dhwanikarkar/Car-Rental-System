@@ -1,0 +1,575 @@
+/*content*/
+.content
+{
+	padding:70px 0;
+	background-color:lightgrey;
+	text-align:center;
+	overflow:auto;
+	margin:5px;
+	min-height:100%;
+}
+.signup-box
+{
+	position:realtive;
+	margin:5% auto;
+	height:470px;
+	width:600px;
+	background:transparent;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+ .left-box
+{
+	position:absolute;
+	top:0;	
+	margin-top:18%;
+	margin-left:-1%;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+}
+.left-box a
+{
+	text-decoration:none;
+	font-size:15px;
+	line-height:39px;
+	color:black;	
+}
+
+.left-box .rows .selcls
+{
+	width:100%;
+	height:30px;
+	padding-left:5px;
+	border:1px solid black;
+	color:black;
+	background:transparent;
+}
+ .right-box
+{
+	position:absolute;
+	top:0;
+	right:0;
+	margin-top:18%;
+	margin-right:28%;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	background-size:cover;
+	background-position:center;
+}
+.signup-box .or
+{
+	position:absolute;
+	top:180px;
+	left:280px;
+	width:40px;
+	height:40px;
+	margin-top:20%;
+	margin-left:27%;
+	background:#efefef;
+	border-radius:50%;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+	line-height:40px;
+	text-align:center;
+}
+.right-box .signwith
+{
+	display:inline-block;		
+	color:#000;
+	text-align:center;	
+}
+button.social
+{
+	margin-bottom:20px;
+	width:230px;
+	height:12%;
+	border:none;
+	border-radius:2px;
+	color:#fff;
+	padding:5px;
+	transition:0.2s ease;
+	cursor:pointer;
+}
+.facebook
+{
+	background:#325086;
+}
+.twitter
+{
+	background:#55acee;
+}
+.google
+{
+	background:#dd4b39;
+}
+h1
+{
+	margin:0 0 20px 0;
+	font-weight:300;
+	font-size:22px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea
+{
+	display:block;
+	box-sizing:border-box;
+	margin-bottom:20px;
+	padding:4px;
+	width:220px;
+	height:32px;
+	border:none;
+	outline:none;
+	background:transparent;
+	border-bottom:1px solid #aaa;
+	font-weight:400;
+	font-size:15px;
+	transition:0.2s ease;
+}
+input[type="date"]
+{
+	margin-left:1%;
+	width:80%;
+}
+
+
+
+input[type="submit"],
+input[type="reset"]
+{
+	margin-bottom:28px;
+	height:32px;
+	width:120px;
+	background:#000;
+	border-radius:2px;
+	color:#fff;
+	font-weight:500;
+	text-transform:uppercase;
+	transition:0.25 ease;
+	cursor:pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="rest"]:focus
+{
+	background:#f4bc33;
+	transition:0.2s ease;
+}
+
+.pwd-box
+{
+	height:380px;
+	width:300px;
+	position:realtive;
+	margin:5% auto;
+	background:transparent;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+
+.login-box
+{
+	height:350px;
+	width:300px;
+	position:realtive;
+	margin:5% auto;
+	background:transparent;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+.feed-box
+{
+	height:300px;
+	width:300px;
+	position:realtive;
+	margin:5% auto;
+	background:transparent;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+
+
+
+ .left-box
+{
+	position:absolute;   
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 390px; 	
+}
+
+
+
+.cat-table
+{
+	position: relative;
+    margin: 4%;
+	background:transparent;
+    height: auto;
+    width: 250px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	text-transform:uppercase;
+	
+}
+
+.cat-table select
+{
+	padding-top:4px;
+	text-align:center;
+	width:50%;
+	text-transform:uppercase;	
+}
+
+
+
+
+.managebox
+{
+	position: absolute;
+    margin:-1%;
+	height:60% auto;
+	width:22%;
+	background:transparent;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);	
+}
+
+.managebox .left-box
+{
+	position: absolute;
+    padding: 40px;
+	
+}
+
+table 
+{
+	
+	background:linear-gradient(to bottom, #ffffff 0%, #808080 100%);
+	border-collapse: collapse;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	font-size: 15;
+	line-height:35%;
+	margin-top:10%;
+	margin-left:20%;
+	text-align: center;
+	width:auto;
+	height:auto;	
+}	
+
+th
+{
+	background-color:#404040;
+	color:white;
+	text-align:center;
+	padding: 10px 10px;
+	position:relative;
+	text-transform:uppercase;	
+}
+
+td
+{	
+	padding: 14px 15px;
+	position: relative;	
+	text-align:center;
+}
+tr td .button
+{
+	text-decoration: none;
+	margin-bottom: 28px;
+    padding:5%;
+    background: #000;
+    border:none;	
+    border-radius: 0px;
+    color: #fff;    
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.button:focus,
+.button:hover 
+{	
+  background: #f4bc33;
+  transition: 0.2s ease;
+}
+.mu		
+{
+	margin-left:10%;
+}
+.mf
+{
+	margin-left:45%;
+}	
+.mb
+{
+	margin-left:25%;
+}
+/*------------------------------------------------------*/
+
+.dis
+{
+	margin-left:30%;
+	margin-top:-17%;
+	width:65%;
+	height:100% auto;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	background:transparent;
+	padding:5px;
+}
+  
+ .card
+{
+	background:transparent;
+    width:85%;
+	height:30%; 
+	margin-left:75px;
+	margin-bottom:5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	
+}   
+
+.photo 
+{
+	float:right;
+	padding-right:5px;	
+}
+
+.description
+{             
+	float:center;
+    width:59%;
+	border-right:10px;
+	border-color:black;
+}
+
+h2
+{
+	float:center;
+	padding-left:10%;
+	padding-top:10px;
+	text-transform:uppercase;
+}
+ 
+h3
+{
+	float:left;
+	padding-left:5%;
+	text-transform:uppercase;
+	text-align:center;
+}	
+
+.card .button
+{
+	text-decoration: none;
+    padding:8px;
+    background: #000;
+    border:none;	
+    border-radius: 0px;
+    color: #fff;    
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer; 
+	float:right;
+	margin-top:15px;
+	font-size:15px;
+	width: 120px;   
+	position:relative;
+}
+
+.button:focus,
+.button:hover 
+{	
+  background: #f4bc33;
+  transition: 0.2s ease;
+} 
+    
+ /**************************************************************/
+
+.card1
+{
+	background:transparent;
+    width:22%;
+	height:60%; 
+	margin:4%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}   
+
+.card1 .photo
+{
+	padding-left:15px;
+	float:left;
+}
+.card1 .description
+{
+	float:center;
+	padding:15px;
+}
+ h2
+{	
+	padding-left:50%;
+	padding-top:10px;
+}
+
+.d2 
+{	
+	float:left;
+	margin-left:15px;
+	margin-top:-15px;
+}
+
+.d1 
+{	
+	float:right;
+	margin-right:35px;
+	margin-top:-15px;
+}
+
+
+.book-box
+{
+	position:relative;
+	margin-top:-32.5%;
+	margin-left:40%;
+	background:transpernet;
+	height:90%;
+	width:350px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+	padding-top:3%;
+}
+.book-box .selcls
+{
+	width:90%;
+	background:#eeeeee none repeat scroll 00;
+	height:30px;
+	padding-left:28%;
+	border:1px solid balck;
+	color:black;
+	margin-left:-10%;
+}
+.book-box .left-box
+{
+	position:absolute;
+	box-sizing:border-box;	
+	width:300px;
+	height:380px;
+	margin-top:20%;
+	margin-left:9%;
+}
+.fared-box
+{
+	margin-left:49%;
+	margin-top:-32%;
+	width:45%;
+	margin-right:2%;	
+	height:370px;	
+	position:absolute;
+	background:transparent;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+	
+
+}
+
+.fared-box .left-box
+{
+	margin-left:30%;
+	margin-top:-5%;
+}
+.fared
+{
+	float:left;
+	margin-left:-80%;
+}
+
+.faredr
+{
+	float:right;
+	margin-right:-50%;
+}
+
+.faredt
+{
+	float:right;
+	margin-right:-35%;
+}
+.fared h2
+{
+	margin-left:-55%;
+}
+.book-box.button
+{
+	text-decoration:none;
+	margin-bottom:28px;
+	padding:5%;
+	background:#000;
+	border:none;
+	border-radius:0px;
+	color:#fff;
+	text-transform:uppercase;
+	transition:02s ease;
+	cursor:pointer;
+}
+.imp
+{
+	margin-left:2%;
+	margin-top:5%;
+	width:45%;
+	height:70%;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+.imp .faredl
+{
+	font-size:18px;
+}
+.imp .faredi
+{
+	font-size:15px;
+}
+/*********************************************************************************/
+.figure img
+{
+	height:350px;
+	margin-top:-2%;
+	margin-left:20%;
+}
+.figure
+{
+	display:flex;
+	position:relative;
+	background-color:#404040;
+	margin-top:-6%;
+	height:300px;
+	color:white;
+	float:center;
+}
+.main
+{
+	
+	float:center;
+}
+.h  h2
+{
+	font-size:50px;
+	padding:1%;
+	float:center;
+}
+.block
+{
+	display:flex;	
+	background-color:#404040;
+	margin-bottom:-5.4%;
+	height:200px;
+	color:white;
+	float:center;
+	padding-top:10px;
+	padding-right:5px;
+}
+.article  h4
+{
+	font-size:25px;
+}
+/*********************************************************************************/
+
+/*content over*/
+
